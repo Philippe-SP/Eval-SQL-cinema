@@ -163,4 +163,4 @@ UPDATE ticket SET price = 9.20 WHERE student = 0 AND age > 14;
 --Commande pour sauvegarder ma base de donnée
 mysqldump -u root -p evalcinema > C:\Users\phili\OneDrive\Bureau\Projets STUDI\Eval-SQL-cinema\DataBase.sql
 --Commande pour restaurer ma base de donnée
-mysql -u root -p evalcinema < DataBase.sql
+mysql -u root -p evalcinema < DataBase.sql --Nom du fichier modifié APRES avoir fait la sauvegarde (nouveau nom DataBase-PhilippeSP.sql)
